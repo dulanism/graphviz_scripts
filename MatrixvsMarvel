@@ -1,0 +1,27 @@
+digraph G {
+
+	subgraph cluster_0 {
+		style=filled;
+		color=red;
+		node [style=filled,color=green];
+		Morpheus -> Neo -> Trinity -> MrSmith;
+		label = "MatrixFolk";
+	}
+
+	subgraph cluster_1 {
+		node [style=filled];
+		IronMan -> Cable -> Bishop -> ArchAngel;
+		label = "MarvelFolk";
+		color=pink
+	}
+	start -> Morpheus;
+	start -> IronMan;
+	Neo -> ArchAngel;
+	Cable -> MrSmith;
+	MrSmith -> Morpheus;
+	MrSmith -> end;
+	ArchAngel -> end;
+
+	start [shape=Mdiamond];
+	end [shape=Msquare];
+}
