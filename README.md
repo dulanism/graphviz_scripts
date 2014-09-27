@@ -1,3 +1,3 @@
 # Getting Started
 
-Contact Dulani via Twitter ([@dulanism](https://twitter.com/dulanism))
+Contact Dulani Wallace via Twitter ([@dulanism](https://twitter.com/dulanism))
