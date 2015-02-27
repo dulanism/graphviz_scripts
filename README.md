@@ -1,4 +1,4 @@
-# Graphs
+# My Graphs
 ====
 
 ### PlantUML, et al.
