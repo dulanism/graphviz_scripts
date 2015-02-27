@@ -1,4 +1,4 @@
-# Future home of Graphs
+# Graphs
 ====
 
 ### PlantUML, et al.
