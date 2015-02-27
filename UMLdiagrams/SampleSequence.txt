@@ -1,0 +1,24 @@
+@startuml
+Dulani -> Virna: Authentication Request
+
+alt successful case
+
+    Dulani -> Virna: Authentication Accepted
+    
+else some kind of failure
+
+    Dulani -> Virna: Authentication Failure
+    group My own label
+    	Virna -> Log : Log attack start
+        loop 1000 times
+            Virna -> Dulani: DNS Attack
+        end
+    	Virna -> Log : Log attack end
+    end
+    
+else Another type of failure
+
+   Dulani -> Virna: Please repeat
+   
+end
+@enduml
